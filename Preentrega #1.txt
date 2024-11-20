@@ -1,0 +1,142 @@
+Preentrega #1:
+Idea alquímica | IA: Generación de
+Prompts
+Desarrollo de la propuesta de solución
+Presentación del problema a abordar
+Portada
+Nombre y apellido: De Olano, Fernando
+Nombre del curso: Inteligencia Artificial: Generación de Prompts
+N° de comisión: 67115
+Nombre del proyecto: Herramienta IA para Periodistas: Optimización SEO y Generación de Imágenes
+Portada
+Nombre y apellido: De Olano, Fernando
+Nombre del curso: Inteligencia Artificial: Generación de Prompts
+N° de comisión: 67115
+Nombre del proyecto: Herramienta IA para Periodistas: Optimización SEO y Generación de Imágenes
+Los periodistas que utilizan sistemas de gestión de contenido (CMS) enfrentan dos desafíos importantes en su flujo
+de trabajo diario:
+1. Optimización SEO de sus artículos: Para aumentar la visibilidad en buscadores, es necesario ajustar aspectos
+como palabras clave, títulos, metadescripciones y enlaces internos. Sin embargo, este proceso puede ser técnico
+y consumir tiempo significativo.
+2. Generación de contenido visual: Cada artículo requiere una imagen de portada que sea visualmente atractiva y
+relevante. Sin embargo, encontrar o crear imágenes únicas puede ser costoso, limitado por derechos de autor y a
+menudo lleva tiempo.
+Estos problemas dificultan la eficiencia y calidad del trabajo periodístico. Una herramienta que automatice estas tareas
+aportaría un valor significativo al reducir tiempo, costos y mejorar resultados.
+Justificación de la viabilidad del proyecto
+La solución propuesta consiste en una herramienta basada en IA integrada al CMS que:
+1. Analice automáticamente el contenido textual de una nota periodística utilizando GPT-3.5, proporcionando
+recomendaciones específicas para mejorar su SEO.
+2. Genere un prompt basado en la misma nota que permita crear, a través de DALL-E, una imagen relevante para la
+portada del artículo.
+Flujo de trabajo:
+1. El periodista carga su nota al CMS.
+2. La herramienta analiza el texto y devuelve:
+Una versión optimizada del contenido con mejoras SEO específicas (palabras clave, títulos sugeridos, enlaces
+internos, etc.).
+Un prompt generado automáticamente para crear una imagen en DALL-E.
+3. Se genera una imagen personalizada y única que el periodista puede usar como portada de manera opcional.
+Ejemplo de funcionalidad:
+Nota original: "Los efectos del cambio climático en los glaciares de la Patagonia"
+Recomendaciones SEO:
+Palabra clave principal sugerida: cambio climático
+Título optimizado: "Impacto del cambio climático: los glaciares de la Patagonia en peligro"
+Metadescripción sugerida: "Explora cómo el calentamiento global está transformando los glaciares
+patagónicos y las implicancias para el medio ambiente."
+Prompt generado para DALL-E:
+"A breathtaking view of Patagonia’s melting glaciers, with cracks and melting ice under a dramatic sky, in a
+realistic photography style."
+Resultados esperados:
+Mejora inmediata en la calidad del contenido SEO.
+Disponibilidad de imágenes únicas y relevantes, eliminando problemas de derechos de autor.
+•
+•
+•
+⚬
+▪
+▪
+▪
+⚬
+•
+•
+El proyecto es técnicamente viable por las siguientes razones:
+1. Acceso a herramientas existentes:
+GPT-3.5 se utilizará para generar análisis de texto y recomendaciones SEO.
+DALL-E o alternativas gratuitas como NightCafe se usarán para la generación de imágenes.
+2. Alcance inicial limitado:
+La herramienta se enfocará inicialmente en periodistas que trabajan en español.
+El análisis SEO se centrará en recomendaciones básicas como palabras clave, títulos y metadescripciones.
+La generación de imágenes comenzará con prompts simples.
+3. Iteración rápida:
+Las pruebas iniciales se realizarán con ejemplos reales de notas periodísticas para validar la efectividad de los
+prompts generados.
+Los ajustes se podrán implementar fácilmente gracias a la flexibilidad de las herramientas utilizadas.
+Recursos necesarios:
+Acceso a la API de OpenAI para GPT-3.5 y DALL-E.
+Ejemplos de notas periodísticas para pruebas.
+Tiempo estimado: 3 semanas para pruebas iniciales y ajustes.
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+Este proyecto combina el análisis de texto con la generación de imágenes mediante inteligencia artificial para mejorar
+la eficiencia del flujo de trabajo periodístico. Al integrar una herramienta innovadora directamente en el CMS, se
+automatizan procesos críticos como la optimización SEO y la creación de contenido visual, aportando beneficios
+significativos en tiempo y calidad de resultados.
+Conclusión
+Desarrollo de Prompts
+1. Prompts para la Optimización SEO (Texto a texto con GPT-3.5)
+Estos prompts estarán diseñados para analizar el contenido del artículo y proporcionar recomendaciones claras sobre
+cómo mejorarlo en términos de SEO. Aquí se incluyen ejemplos de prompts que se podrían usar:
+Prompt 1: Identificación de palabras clave principales
+"Analiza el siguiente texto y sugiere 3 palabras clave principales que representen su contenido. Además, propone
+sinónimos relevantes que puedan ser utilizados para diversificar el SEO: [Texto del artículo]."
+Resultado esperado:
+Palabras clave: cambio climático, glaciares, Patagonia.
+Sinónimos: calentamiento global, deshielo, región austral.
+Prompt 2: Optimización deltítulo
+"A partir del siguiente texto, genera tres propuestas de títulos optimizados para SEO. Cada título debe incluir una
+palabra clave principal y ser atractivo para lectores: [Texto del artículo]."
+Resultado esperado:
+1. "Impacto del cambio climático: los glaciares de la Patagonia en peligro."
+2. "Deshielo en la Patagonia: cómo el calentamiento global afecta los glaciares."
+3. "Cambio climático y glaciares: la crisis ambiental en el sur del mundo."
+Prompt 3: Creación de metadescripción
+"Genera una metadescripción de hasta 150 caracteres que resuma el siguiente texto y sea amigable para SEO. Incluye
+al menos una palabra clave: [Texto del artículo]."
+Resultado esperado:
+"Explora cómo el calentamiento global afecta los glaciares de la Patagonia, una alarma para el medio ambiente."
+2. Prompts para Generación de Imágenes (Texto a Imagen con DALL-E)
+Estos prompts estarán diseñados para extraer los conceptos clave del artículo y generar imágenes visualmente
+impactantes que sean relevantes para la temática.
+Prompt 1: Estilo fotográfico realista
+"Crea una imagen realista de los glaciares de la Patagonia derritiéndose bajo un cielo dramático con tonos oscuros y
+nubosos. Muestra grietas y agua fluyendo por el hielo. Enfócate en detalles naturales."
+Resultado esperado:
+Una imagen que refleje el deshielo, con un ambiente dramático y visualmente atractivo, ideal para una portada
+impactante.
+Prompt 2: Estilo artístico minimalista
+"Diseña una imagen minimalista que represente el cambio climático. Usa tonos azules y blancos para ilustrar un glaciar
+derritiéndose en un entorno abstracto, con líneas limpias y un diseño sencillo."
+Resultado esperado:
+Una representación abstracta pero clara del problema, perfecta para portadas más conceptuales.
+Prompt 3: Visualización de datos
+"Genera una ilustración infográfica que combine un gráfico de barras mostrando el aumento de la temperatura global y
+un fondo de glaciares derritiéndose. Usa colores fríos como azules y blancos."
+Resultado esperado:
+Una imagen infográfica que combina datos visuales con elementos de diseño atractivos, útil para complementar
+artículos informativos.
+Estrategias para mejorar los Prompts
+1. Incluir detalles específicos: Al describir la temática y el estilo deseado (realista, artístico, infográfico), se asegura
+una salida más precisa en las imágenes.
+2. Iteración: Probar varios prompts con modificaciones pequeñas para evaluar qué detalles generan los mejores
+resultados.
+3. Contextualización: Siempre incluir un breve resumen del texto base en los prompts de texto a imagen para
+proporcionar suficiente contexto al modelo.
+… continuara
